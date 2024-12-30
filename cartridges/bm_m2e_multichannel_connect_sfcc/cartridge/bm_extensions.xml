@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<extensions xmlns="http://www.demandware.com/xml/bmmodules/2007-12-11"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.demandware.com/xml/bmmodules/2007-12-11 bmext.xsd">
+    <menuitem id="m2e-apps-item" site="true" position="1">
+        <name xml:lang="x-default">M2E Apps</name>
+        <short_description xml:lang="x-default">
+            M2E Apps
+        </short_description>
+        <icon>icons/m2e.png</icon>
+    </menuitem>
+    <menuaction id="m2e-multichannel-app-action" menupath="m2e-apps-item" site="true" position="1">
+        <name xml:lang="x-default">M2E Multichannel Connect</name>
+        <short_description xml:lang="x-default">M2E Multichannel Connect</short_description>
+        <description xml:lang="x-default">M2E Multichannel Connect</description>
+        <exec pipeline="M2EMultichannelApp" node="Start"/>
+        <sub-pipelines>
+            <pipeline name="M2EMultichannelApp-Start"/>
+        </sub-pipelines>
+        <icon>icons/m2e.png</icon>
+    </menuaction>
+</extensions>

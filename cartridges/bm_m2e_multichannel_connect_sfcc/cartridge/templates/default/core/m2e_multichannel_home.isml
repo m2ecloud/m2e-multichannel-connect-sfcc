@@ -1,0 +1,3 @@
+<isdecorate template="application/MenuFrame">
+<iframe class="m2e-multichannel-frame" src="https://m2e.cloud?salesforce_embedded=true" frameborder="0" allowfullscreen width="100%" height="95%"></iframe>
+</isdecorate>
