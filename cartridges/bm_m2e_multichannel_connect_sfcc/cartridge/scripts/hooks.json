@@ -1,0 +1,12 @@
+{
+    "hooks": [
+        {
+            "name": "dw.scapi.orders.beforePOST",
+            "script": "./order_hook_scripts.js"
+        },
+        {
+            "name": "dw.scapi.orders.afterPOST",
+            "script": "./order_hook_scripts.js"
+        }
+    ]
+}
